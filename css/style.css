@@ -13,10 +13,16 @@ body {
 .row {
   display: flex;
 }
+
+.container-big {
+  margin: 0 auto;
+  width: 75%;
+}
 /* **common** */
 
 /* ********* header ******** */
 
+/* **navbar** */
 /* leviammo i puntini da vicino la lista */
 .car-lista {
   list-style-type: none;
@@ -34,5 +40,31 @@ body {
   justify-content: space-between;
 }
 /* /separiamo con uno spazio centrale le due nav bar  */
+/* **navbar** */
+
+/* **jumbotron** */
+/* *debug* */
+.debug .container-big {
+  background-color: red;
+}
+
+.debug .col-small {
+  background-color: blue;
+}
+
+.debug .col-big {
+  background-color: green;
+}
+/* *debug* */
+
+.col-small {
+  width: 30%;
+}
+
+.col-big {
+  width: 70%;
+}
+
+/* **jumbotron** */
 
 /* ********* /header ******** */
