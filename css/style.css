@@ -1,0 +1,38 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* **common** */
+.row {
+  display: flex;
+}
+/* **common** */
+
+/* ********* header ******** */
+
+/* leviammo i puntini da vicino la lista */
+.car-lista {
+  list-style-type: none;
+}
+/* /leviammo i puntini da vicino la lista */
+
+/* distanziamo gli elmenti della lista l'uno dall'altro */
+.car-lista li {
+  margin: 30px 18px;
+}
+/* /distanziamo gli elmenti della lista l'uno dall'altro */
+
+/* separiamo con uno spazio centrale le due nav bar  */
+.disp-nav-bar {
+  justify-content: space-between;
+}
+/* /separiamo con uno spazio centrale le due nav bar  */
+
+/* ********* /header ******** */
