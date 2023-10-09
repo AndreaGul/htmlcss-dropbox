@@ -10,24 +10,35 @@ body {
 }
 
 /* **common** */
+/* disposizone degli lementi in mmomdo affiiancato */
 .row {
   display: flex;
 }
 
+/* dimensione di default del contenitore grande */
 .container-big {
   margin: 0 auto;
   width: 75%;
+}
+
+/* caratteristiche di default dei bottoni */
+.button-default {
+  border: none;
+  background-color: #0061ff;
+  color: white;
+  padding: 8px 16px;
 }
 /* **common** */
 
 /* ********* header ******** */
 
 /* **navbar** */
-/* leviammo i puntini da vicino la lista */
-.car-lista {
-  list-style-type: none;
+
+/* separiamo con uno spazio centrale le due nav bar  */
+.disp-nav-bar {
+  justify-content: space-between;
 }
-/* /leviammo i puntini da vicino la lista */
+/* /separiamo con uno spazio centrale le due nav bar  */
 
 /* distanziamo gli elmenti della lista l'uno dall'altro */
 .car-lista li {
@@ -35,32 +46,51 @@ body {
 }
 /* /distanziamo gli elmenti della lista l'uno dall'altro */
 
-/* separiamo con uno spazio centrale le due nav bar  */
-.disp-nav-bar {
-  justify-content: space-between;
+/* leviammo i puntini da vicino la lista */
+.car-lista {
+  list-style-type: none;
+  align-items: center;
 }
-/* /separiamo con uno spazio centrale le due nav bar  */
+/* /leviammo i puntini da vicino la lista */
+
+/* caratteristiche dei link nelle liste della nav bar */
+.car-lista li a {
+  text-decoration: none;
+  color: #3f3f3f;
+}
+/* /caratteristiche dei link nelle liste della nav bar */
+
+/* riposizonamento del bottone in base agli altri link */
+.car-lista button {
+  margin-left: -18px;
+}
+
 /* **navbar** */
 
 /* **jumbotron** */
 /* *debug* */
+/* colore background jumbotron */
 .debug .container-big {
   background-color: red;
 }
 
+/* colore colonna piccola */
 .debug .col-small {
   background-color: blue;
 }
 
+/* colore colonna grande */
 .debug .col-big {
   background-color: green;
 }
 /* *debug* */
 
+/* grandezza colonna piccola */
 .col-small {
   width: 30%;
 }
 
+/* grandezza colonna grande */
 .col-big {
   width: 70%;
 }
