@@ -321,10 +321,6 @@ hr {
 
 /** Piano 4**/
 
-.piano4 {
-  justify-content: center;
-}
-
 .piano4 .testapiano {
   width: 60%;
   margin-right: 45px;
@@ -333,10 +329,11 @@ hr {
 .piano4 .bottone {
   width: 40%;
   margin-left: 45px;
+  text-align: center;
 }
 
-.piano4 .bottone button {
-  display: block;
+.piano4 .testa-piano h4 {
+  margin-bottom: 55px;
 }
 
 /** /Piano 4**/
