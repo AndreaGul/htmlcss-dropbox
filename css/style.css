@@ -306,6 +306,7 @@ hr {
 
 /** fondo titolo e lista**/
 
+/* distanziamo l'ha dagli altri elementi */
 .fondo-piano h4 {
   margin: 10px 0;
 }
@@ -321,23 +322,65 @@ hr {
 
 /** Piano 4**/
 
+/* definiamo quanta grandezza la parte sinsitra del piano4 si deve prendere */
 .piano4 .testapiano {
   width: 60%;
   margin-right: 45px;
 }
 
+/* definiamo quanta grandezza la parte destra del piano4 si deve prendere */
 .piano4 .bottone {
   width: 40%;
   margin-left: 45px;
   text-align: center;
 }
 
+/* distanziamo nel piano4 h4 e il p */
 .piano4 .testa-piano h4 {
   margin-bottom: 55px;
 }
 
 /** /Piano 4**/
 /* ***corpo dell'intestazione*** */
+
+/* ************ Sezione del partener*********** */
+
+/* **debug** */
+/* debug contenitore del partner */
+.debug .sez-partner {
+  background-color: red;
+}
+/* ** /debug** */
+
+/* dimensione contenitore immagine */
+.img-partner {
+  width: 60%;
+}
+
+/* l'iimmgaine si adatta al sui contenitore */
+.img-partner img {
+  width: 100%;
+  display: block;
+}
+
+/* dimensione sezione con dati riferente al pratner */
+.sez-text-partner {
+  width: 40%;
+  padding: 58px 50px;
+}
+
+.sez-text-partner p {
+  margin: 20px 0 32px 0;
+}
+
+.sez-text-partner .button-default {
+  color: black;
+  background-color: white;
+  border: black solid 1px;
+  padding: 12px 16px;
+}
+
+/* ************ /Sezione del partener*********** */
 
 /* ***** intestazione ****** */
 /* ********* /main ******** */
