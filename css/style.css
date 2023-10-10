@@ -39,17 +39,16 @@ body {
 
 /* ********* header ******** */
 
-/* background del jumbo tron */
-.background-cont-big {
-  background-color: #b4d0e7;
-  margin-bottom: 160px;
-}
-
 /* **navbar** */
 
 /* separiamo con uno spazio centrale le due nav bar  */
 .disp-nav-bar {
   justify-content: space-between;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  z-index: 1;
 }
 /* /separiamo con uno spazio centrale le due nav bar  */
 
@@ -97,6 +96,12 @@ body {
   background-color: green;
 }
 /* *debug* */
+/* background del jumbo tron */
+.background-cont-big {
+  padding-top: 80px;
+  background-color: #b4d0e7;
+  margin-bottom: 160px;
+}
 
 /* caratteristiche h1 nel jumbotron  */
 .container-big h1 {
