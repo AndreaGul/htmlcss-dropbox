@@ -21,6 +21,12 @@ body {
   width: 65%;
 }
 
+/* dimensione di default del contenitore piccolo */
+.container-small {
+  margin: 0 auto;
+  width: 55%;
+}
+
 /* caratteristiche di default dei bottoni */
 .button-default {
   border: none;
@@ -36,7 +42,7 @@ body {
 /* background del jumbo tron */
 .background-cont-big {
   background-color: #b4d0e7;
-  margin-bottom: 50px;
+  margin-bottom: 160px;
 }
 
 /* **navbar** */
@@ -141,3 +147,108 @@ body {
 /* **jumbotron** */
 
 /* ********* /header ******** */
+
+/* ********* main ******** */
+
+main {
+  margin-bottom: 20px;
+}
+
+/* ***intestazione*** */
+/* dimensione font h2 */
+.container-small .intestazione h2 {
+  font-size: 50px;
+}
+
+/* leviamo i puntini difinaco la lista */
+.intestazione ul {
+  list-style-type: none;
+}
+
+/* distanziamo gli lementi della lista */
+.intestazione li {
+  margin-right: 45px;
+}
+
+.intestazione h2 {
+  margin-bottom: 70px;
+}
+
+/* cerchio pieno blu a sinistra dell'elemento della lista */
+.intestazione ul .full-circle::before {
+  content: '';
+  display: inline-block;
+  text-align: center;
+  width: 10px;
+  height: 10px;
+  margin: 2px;
+  vertical-align: baseline;
+  border: #0061ff solid 5px;
+  border-radius: 50%;
+}
+
+/* cerchio vuoto grigio a sinistra dell'elemento della lista */
+.intestazione ul .empty-circle::before {
+  content: '';
+  display: inline-block;
+  text-align: center;
+  width: 10px;
+  height: 10px;
+  margin: 2px;
+  padding: 3px;
+  vertical-align: baseline;
+  border: #d0d0d3 solid 2px;
+  border-radius: 50%;
+}
+
+/* ***corpo dell'intestazione*** */
+
+.debug .container-tt-piani {
+  background-color: red;
+}
+
+/* container di tutte le sezioni con i vari piani */
+.container-tt-piani {
+  margin-top: 100px;
+  flex-wrap: wrap;
+}
+
+/* dimensioni singolo piano */
+.container-piano {
+  width: calc((100% - 100px) / 3);
+  border: #d0d0d3 solid 1px;
+  margin-bottom: 40px;
+}
+
+/* permetto all'ultimmo piano di allargarsi e prendere tutto lo sapzio dipsonibile */
+.container-tt-piani .container-piano {
+  flex-grow: 1;
+}
+
+/* il secondo elemento di tipo conainer-piano ha un margine ai lati di 50px */
+.container-piano:nth-child(2) {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+/*** parte della tipolia di piano ***/
+
+/* definisco le caratteristiche del contenitore della tipologia di piano */
+.container-piano .tipo-piano {
+  border-bottom: #d0d0d3 solid 1px;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* spazio l'icona dal testo */
+.container-piano .tipo-piano i {
+  margin-right: 4px;
+}
+/*** /parte della tipolia di piano ***/
+
+/* ***corpo dell'intestazione*** */
+
+/* ***** intestazione ****** */
+/* ********* /main ******** */
