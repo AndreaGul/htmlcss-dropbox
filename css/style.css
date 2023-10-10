@@ -315,14 +315,31 @@ hr {
   color: #6b6dff;
 }
 
-/*  creo uno spazio a fondo pagina */
-.fondo-piano {
-  margin-bottom: 180px;
-}
 /** /fondo titolo e lista**/
 
 /** /parte del corpo del piano **/
 
+/** Piano 4**/
+
+.piano4 {
+  justify-content: center;
+}
+
+.piano4 .testapiano {
+  width: 60%;
+  margin-right: 45px;
+}
+
+.piano4 .bottone {
+  width: 40%;
+  margin-left: 45px;
+}
+
+.piano4 .bottone button {
+  display: block;
+}
+
+/** /Piano 4**/
 /* ***corpo dell'intestazione*** */
 
 /* ***** intestazione ****** */
