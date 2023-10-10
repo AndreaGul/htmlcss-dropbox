@@ -35,6 +35,16 @@ body {
   padding: 8px 16px;
   font-size: 16px;
 }
+
+/* levo i puntini da vicino la lista */
+.no-dots {
+  list-style-type: none;
+}
+
+/* spazio l'icona dal testo */
+.container-piano .tipo-piano i {
+  margin-right: 4px;
+}
 /* **common** */
 
 /* ********* header ******** */
@@ -58,9 +68,8 @@ body {
 }
 /* /distanziamo gli elmenti della lista l'uno dall'altro */
 
-/* leviammo i puntini da vicino la lista */
+/* centriamom gli eleenti verticalmente */
 .car-lista {
-  list-style-type: none;
   align-items: center;
 }
 /* /leviammo i puntini da vicino la lista */
@@ -165,11 +174,6 @@ main {
   font-size: 50px;
 }
 
-/* leviamo i puntini difinaco la lista */
-.intestazione ul {
-  list-style-type: none;
-}
-
 /* distanziamo gli lementi della lista */
 .intestazione li {
   margin-right: 45px;
@@ -247,11 +251,77 @@ main {
   font-weight: 400;
 }
 
-/* spazio l'icona dal testo */
-.container-piano .tipo-piano i {
+/*** /parte della tipolia di piano ***/
+
+/*** parte del corpo del piano ***/
+
+/* distanziaento del conenuto dai bordi */
+.contenuto-piano {
+  padding: 40px 30px;
+}
+
+/* distanziamento di ogni elemento tra di solo */
+.contenuto-piano li {
+  margin-bottom: 28px;
+}
+
+/* distanziamo licona dal testo */
+/* todo centrare le icone rispetto alla linea del resto del testo */
+.container-piano li i {
   margin-right: 4px;
 }
-/*** /parte della tipolia di piano ***/
+
+/**titolo con lista**/
+
+/* distanzio h2 dall'h4 */
+.contenuto-piano .testa-piano h2 {
+  margin-bottom: 25px;
+}
+
+/* distanzio h4 dal p */
+.contenuto-piano .testa-piano h4 {
+  margin-bottom: 18px;
+}
+
+/* distanzio p dalla lista */
+.contenuto-piano .testa-piano p {
+  color: #666666;
+  margin-bottom: 55px;
+}
+
+/** /titolo con lista**/
+
+/** bottone con hr**/
+/* grandezza dell'hr */
+hr {
+  width: 50px;
+  margin: 40px 0;
+}
+
+/* distanziamento del bottone dal resto del contenuto */
+.contenuto-piano button {
+  margin: 27px 0 35px 0;
+}
+/** /bottone con hr**/
+
+/** fondo titolo e lista**/
+
+.fondo-piano h4 {
+  margin: 10px 0;
+}
+
+/* colore icona del check */
+.fondo-piano i {
+  color: #6b6dff;
+}
+
+/*  creo uno spazio a fondo pagina */
+.fondo-piano {
+  margin-bottom: 180px;
+}
+/** /fondo titolo e lista**/
+
+/** /parte del corpo del piano **/
 
 /* ***corpo dell'intestazione*** */
 
