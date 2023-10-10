@@ -36,6 +36,7 @@ body {
 /* background del jumbo tron */
 .background-cont-big {
   background-color: #b4d0e7;
+  margin-bottom: 50px;
 }
 
 /* **navbar** */
@@ -91,21 +92,18 @@ body {
 }
 /* *debug* */
 
-/* grandezza colonna piccola */
-.col-small {
-  width: 30%;
-}
-
-/* grandezza colonna grande */
-.col-big {
-  width: 70%;
-}
-
 /* caratteristiche h1 nel jumbotron  */
 .container-big h1 {
   font-size: 80px;
   font-weight: bolder;
   padding: 55px 0;
+}
+
+/* *col-small* */
+
+/* grandezza colonna piccola */
+.col-small {
+  width: 30%;
 }
 
 /* distanziamento del conenuto del contenuto della colonna piccola rispetto al bottone */
@@ -114,14 +112,31 @@ body {
   padding: 12px 18px;
 }
 
+/* dimensioni e distanza dal resto del contenitore icona con la freccia un giu */
 .col-small i {
   font-size: 40px;
   margin-top: 80px;
+  margin-bottom: 20px;
+}
+/* *col-small* */
+
+/* *col-big* */
+/* grandezza colonna grande */
+.col-big {
+  width: 70%;
+  position: relative;
+  top: 0;
+  left: 0;
 }
 
+/* grandezza dell'immagine e posizionamento*/
 .col-big img {
   width: 100%;
+  display: block;
+  position: absolute;
 }
+
+/* *col-big* */
 
 /* **jumbotron** */
 
