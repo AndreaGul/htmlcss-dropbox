@@ -343,6 +343,8 @@ hr {
 /** /Piano 4**/
 /* ***corpo dell'intestazione*** */
 
+/* ***** intestazione ****** */
+
 /* ************ Sezione del partener*********** */
 
 /* **debug** */
@@ -351,6 +353,11 @@ hr {
   background-color: red;
 }
 /* ** /debug** */
+
+/* distanzio la sezione partner con quella operazioni */
+.sez-partner {
+  margin-bottom: 165px;
+}
 
 /* dimensione contenitore immagine */
 .img-partner {
@@ -369,10 +376,12 @@ hr {
   padding: 58px 50px;
 }
 
+/* distanziamo p dal titolo e dal bottone */
 .sez-text-partner p {
   margin: 20px 0 32px 0;
 }
 
+/* dettagli del bottone */
 .sez-text-partner .button-default {
   color: black;
   background-color: white;
@@ -382,5 +391,43 @@ hr {
 
 /* ************ /Sezione del partener*********** */
 
-/* ***** intestazione ****** */
+/**** sezione cone le varie operazioni che può svolgere dropbrox ****/
+/* *debug* */
+/* colora ogni container */
+.debug .cont-operaz {
+  background-color: red;
+}
+/* *debug* */
+
+/* distanziamo h2 da tutti i container*/
+.container-operazioni h2 {
+  font-size: 40px;
+  margin-bottom: 70px;
+}
+
+/* disponiamo i container uno affianco a all'altro */
+.tut-operaz {
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+/* grandezza di ogni contenitore */
+.cont-operaz {
+  width: calc((100% - 100px) / 3);
+}
+
+/* definiziamo la grandezza dell'immagine rispetto al contenitore */
+.cont-operaz img {
+  width: 100%;
+  display: block;
+}
+
+/* distanziamo h3 dagli altri elementi della pagina e definiamo la sua grandezza */
+.cont-operaz h3 {
+  font-size: 24px;
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+
+/**** /sezione cone le varie operazioni che può svolgere dropbrox ****/
 /* ********* /main ******** */
