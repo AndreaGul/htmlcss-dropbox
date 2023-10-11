@@ -293,7 +293,7 @@ main {
 
 /** bottone con hr**/
 /* grandezza dell'hr */
-hr {
+.contenuto-piano hr {
   width: 50px;
   margin: 40px 0;
 }
@@ -452,3 +452,57 @@ hr {
 /* *** /sezione titolo fondo pagin *** */
 
 /* ********* /main ******** */
+
+/* ********** footer ************ */
+
+/* **debug** */
+.debug footer .container-big {
+  background-color: red;
+}
+/* **debug** */
+
+/* colore background footer bottom */
+.color-bottom-footer {
+  background-color: black;
+  padding-bottom: 30px;
+}
+
+/* spazio superiore per abbassare gli lementi rispetto al contenitore */
+footer .container-big {
+  padding-top: 105px;
+}
+
+/* contenitore di tutte le liste */
+.footer-cont-list {
+  justify-content: space-between;
+  color: white;
+  margin-bottom: 115px;
+}
+
+/* distanziamento degli lementi della lista uno dall'altro */
+.footer-cont-list .footer-list li {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.footer-cont-list .footer-list ul .bottom-footer-h3 {
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+
+/* dimensioni hr e distanziamento dal p sotto */
+footer .container-big hr {
+  width: 120px;
+  margin-bottom: 50px;
+}
+
+/* colore p */
+footer .container-big p {
+  color: #999999;
+}
+
+/* distanza dell'icona rispetto a testo a destra */
+footer .container-big i {
+  margin-right: 8px;
+}
+/* ********** /footer ************ */
