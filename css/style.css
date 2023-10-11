@@ -399,6 +399,11 @@ hr {
 }
 /* *debug* */
 
+/* distanziamento tra i contenitore delle operazionii e del titolo sottostante */
+.container-operazioni {
+  margin-bottom: 212px;
+}
+
 /* distanziamo h2 da tutti i container*/
 .container-operazioni h2 {
   font-size: 40px;
@@ -430,4 +435,20 @@ hr {
 }
 
 /**** /sezione cone le varie operazioni che può svolgere dropbrox ****/
+
+/* *** sezione titolo fondo pagin *** */
+
+/* granndezza del titolo e spaziamento al di sotto */
+.fondo-titolo h2 {
+  font-size: 40px;
+  margin-bottom: 60px;
+}
+
+/* spaziamento al di sotto del link  */
+.fondo-titolo a {
+  margin-bottom: 150px;
+}
+
+/* *** /sezione titolo fondo pagin *** */
+
 /* ********* /main ******** */
