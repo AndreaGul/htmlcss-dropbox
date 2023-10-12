@@ -438,6 +438,10 @@ main {
 
 /* *** sezione titolo fondo pagin *** */
 
+.fondo-titolo {
+  margin-bottom: 150px;
+}
+
 /* granndezza del titolo e spaziamento al di sotto */
 .fondo-titolo h2 {
   font-size: 40px;
@@ -450,6 +454,45 @@ main {
 }
 
 /* *** /sezione titolo fondo pagin *** */
+
+/* *** contenitore banner con sponsor  *** */
+
+/* *debug* */
+.debug .car-cont-sponsor {
+  border: black solid 2px;
+}
+
+.debug .q-size {
+  background-color: red;
+  border: black solid 2px;
+}
+/* * /debug* */
+.q-size {
+  width: calc(100% / 3);
+  height: calc(100vw / 3);
+}
+
+.q-wrap {
+  flex-wrap: wrap;
+}
+
+.car-cont-sponsor {
+  width: 50%;
+  height: 50%;
+  position: relative;
+  background-color: red;
+  border: black solid 2px;
+}
+
+.car-cont-sponsor img {
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* *** /contenitore banner con sponsor  *** */
 
 /* ********* /main ******** */
 
