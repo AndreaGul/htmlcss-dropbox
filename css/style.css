@@ -586,6 +586,38 @@ body {
 
 /* ** /sezione prova gratuita** */
 
+/* ** sezione domande frequenti** */
+
+/* spaziatura interna contenitore domande frequenti */
+.cont-dom-freq {
+  padding: 160px 0 150px 0;
+}
+
+/* modifiche diensione titolo e spaziatura dagli altri elementi al di sotto di esso */
+.cont-dom-freq h2 {
+  font-size: 40px;
+  margin-bottom: 65px;
+}
+
+/* spaziatura del testo nei paragrafi dagli horizontal rule  */
+.cont-dom-freq h4 {
+  padding: 40px 0;
+}
+
+/* grandezza del contenitore del testo del paragrafo */
+.cont-dom-freq .testo-info {
+  width: 70%;
+}
+
+/* dimensione del contenitore con la freccia a scomparsa */
+.arrow-info {
+  width: 30%;
+  padding-right: 45px;
+  text-align: right;
+}
+
+/* ** /sezione domande frequenti** */
+
 /* ********* /main ******** */
 
 /* ********** footer ************ */
