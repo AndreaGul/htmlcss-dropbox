@@ -553,6 +553,39 @@ body {
 
 /* *** /contenitore banner con sponsor  *** */
 
+/* ** sezione prova gratuita** */
+
+/* colore container e spazziamento interno degli lementi da esso */
+.sez-provagratuita {
+  background-color: #b4d0e7;
+  padding: 140px 0 130px 0;
+}
+/* grandezza contenitore con titolo */
+.sez-provagratuita .spaz-titolo {
+  width: 60%;
+}
+
+/* grandezza font titolo */
+.sez-provagratuita .spaz-titolo {
+  font-size: 30px;
+}
+
+/* grandezza contenitore bottone */
+.sez-provagratuita .spaz-button {
+  width: 40%;
+  text-align: right;
+}
+
+/* caratteristiche bottone */
+.sez-provagratuita .spaz-button .button-default {
+  color: black;
+  background-color: white;
+
+  padding: 14px 50px;
+}
+
+/* ** /sezione prova gratuita** */
+
 /* ********* /main ******** */
 
 /* ********** footer ************ */
