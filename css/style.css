@@ -34,6 +34,12 @@ body {
   color: white;
   padding: 8px 16px;
   font-size: 16px;
+  cursor: pointer;
+}
+
+/* al passare con il cursone sopra il pulsante diventa più chiaro */
+.button-default:hover {
+  filter: brightness(1.4);
 }
 
 /* levo i puntini da vicino la lista */
@@ -51,39 +57,48 @@ body {
 
 /* **navbar** */
 
-/* separiamo con uno spazio centrale le due nav bar  */
-.disp-nav-bar {
-  justify-content: space-between;
+/* stabiliamo la grandezza del contenitore della nav bar */
+header {
   height: 80px;
   width: 100%;
+  line-height: 80px;
   position: fixed;
+
   background-color: white;
   z-index: 1;
+  box-shadow: 0px 1px 2px #d1d9e1;
 }
-/* /separiamo con uno spazio centrale le due nav bar  */
 
-/* distanziamo gli elmenti della lista l'uno dall'altro */
-.car-lista li {
-  margin: 30px 18px;
-}
-/* /distanziamo gli elmenti della lista l'uno dall'altro */
-
-/* centriamom gli eleenti verticalmente */
-.car-lista {
+/* separiamo con uno spazio centrale le due nav bar e li allneamo orizontalrmente  */
+.disp-nav-bar {
+  justify-content: space-between;
   align-items: center;
 }
-/* /leviammo i puntini da vicino la lista */
+
+/* distanziamo gli elementi della lista l'uno dall'altro */
+.car-lista li {
+  padding: 0px 20px;
+}
+
+/* centriamo l'immagine del logo verticalmente */
+.car-lista img {
+  vertical-align: middle;
+}
 
 /* caratteristiche dei link nelle liste della nav bar */
-.car-lista li a {
+.car-lista a {
   text-decoration: none;
-  color: #3f3f3f;
+  color: black;
+  display: block;
 }
-/* /caratteristiche dei link nelle liste della nav bar */
 
 /* riposizonamento del bottone in base agli altri link */
 .car-lista button {
-  margin-left: -18px;
+  margin-left: -20px;
+}
+
+.car-lista li:not(#logo, .btn-container):hover {
+  border-bottom: currentColor 2px solid;
 }
 
 /* **navbar** */
