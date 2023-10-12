@@ -277,9 +277,10 @@ header {
 }
 
 /* distanziamo licona dal testo */
-/* todo centrare le icone rispetto alla linea del resto del testo */
 .container-piano li i {
-  margin-right: 4px;
+  padding-top: 2px;
+  position: relative;
+  right: 6px;
 }
 
 /**titolo con lista**/
@@ -356,7 +357,7 @@ header {
 
 /* ***** intestazione ****** */
 
-/* ************ Sezione del partener*********** */
+/* ************ Sezione del partner*********** */
 
 /* **debug** */
 /* debug contenitore del partner */
